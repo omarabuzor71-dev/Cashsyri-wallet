@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>لوحة الأدمن</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+<h3>لوحة التحكم (أدمن)</h3>
+<p id="adminStatus"></p>
+<input id="targetEmail" placeholder="إيميل المستخدم">
+<input id="newBalance" type="number" placeholder="الرصيد الجديد">
+<button onclick="setBalance()">تعديل الرصيد</button>
+<p id="adminMsg"></p>
+</div>
+<script src="firebase.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
