@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>الرئيسية</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header card">
+<h3>لوحة المستخدم</h3>
+<p id="userEmail"></p>
+</div>
+<div class="stats">
+<div class="stat">الرصيد<br><b id="balance">0</b></div>
+<div class="stat">الأرباح<br><b>0</b></div>
+</div>
+<div class="grid">
+  <a href="https://t.me/Ocashsy" target="_blank" class="card small">خدمة العملاء</a>
+<a href="wallet.html" class="card small">المحفظة</a>
+<a href="account.html" class="card small">حسابي</a>
+<a href="admin.html" id="adminBtn" class="card small admin" style="display:none">لوحة الأدمن</a>
+</div>
+<div class="nav">
+<a class="active">بيت</a>
+<a href="wallet.html">محفظة</a>
+<a href="account.html">حسابي</a>
+</div>
+<script src="firebase.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
